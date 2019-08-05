@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign up free"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:background="#000000" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/facebook" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/google" />
+
+    <TextView
+    android:id="@+id/textView3"
+    android:layout_width="340dp"
+    android:layout_height="1dp"
+  android:layout_centerHorizontal="true"
+    android:layout_marginTop="175dp"
+    android:background="#000000" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:hint="First name last name" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:hint="Password" />
+
+    <Spinner
+        android:layout_width="340dp"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/spinner_cars"
+        android:layout_height="45dp">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="385dp"
+        android:hint="Weeding date" />
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:hint="City/Town" />
+
+
+    <TextView
+        android:layout_width="252dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/text"
+        android:textStyle="bold"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="252dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="495dp"
+        android:text="Terms of Use."
+        android:textSize="12dp" />
+
+</RelativeLayout>
